@@ -1,0 +1,443 @@
+.nav-link:hover{
+    color: rgb(194, 208, 221);
+} 
+
+.nav-link{
+    position: relative;
+    font-size: 15px;
+    transition: all 0.4s;
+    color: rgb(221, 245, 245);
+}
+
+.nav-link::after{
+    content: " ";
+    height: 2px;
+    width: 100%;
+    background-color: rgb(30, 157, 207);
+    
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+
+}
+
+
+.nav-link:hover::after{
+    opacity: 1;
+}
+
+
+.carousel-caption {
+    position: absolute;
+   
+  
+    justify-content: center;
+    bottom: 35%;
+    left:20%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+   
+    
+  }
+
+
+ 
+  
+#bg-color{
+    background: rgb(82,96,91);
+background: linear-gradient(90deg, rgba(82,96,91,0.9836309523809523) 0%, rgba(81,96,99,1) 31%);
+
+}
+
+
+
+.change-font1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:12px;
+    text-align: center;
+    margin-top:20px;
+    
+}
+
+.change-font2{
+    font-family: 'Times New Roman', Times, serif;
+   font-size:xx-large;
+   text-align: center;
+   
+}
+
+#btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px;
+    padding:4px;
+    background-color: rgb(49, 219, 219);
+    border-radius:30px;
+    font-size:12px;
+    display: inline;
+
+}
+
+
+#btn2{
+    border:1px solid black;
+    padding:4px;
+    background-color: rgb(49, 219, 219);
+    border-radius:30px;
+    display: inline;
+    font-size:12px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#txt-aling{
+    text-align: center;
+ 
+}
+
+#ch-img,img{
+    width: 100%;
+    margin-top: 14px;
+
+}
+
+#ch-txt,p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0;
+}
+
+.icon-change{
+    width:60px;
+    height:50px;
+    
+    
+    
+}
+
+
+i{
+   
+    text-align: center;
+    font-size: 60px;
+    width: 100%;
+}
+
+.txt, h3{
+    text-align: center;
+}
+
+.cent{
+    text-align:center;
+}
+
+#wp{
+    color: aqua;
+
+}
+#wpt{
+   color: aqua;
+}
+
+ul {
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+  }
+  
+.tick {
+    padding-left: var(--icon-space);
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  
+.tick:before{
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    color: aqua;
+
+  }
+
+
+#bgimg{
+    /* background-image: url(e.png); */
+    
+    background-color: black;
+    width: 100%;
+   
+    
+}
+
+table,td{
+border: 1px solid rgb(88, 86, 86);
+padding: 0px;
+width:100%;
+
+
+}
+
+/* table,tr{
+    padding-top:0px;
+    padding-bottom: 0px;
+    
+} */
+
+
+#tb-icon{
+    text-align: left;
+    font-size: medium;
+    margin-left:10px;
+}
+
+#plan{
+    margin-top: 0px;
+    top: 0px;
+}
+
+#bg-img1{
+    height:100px;
+}
+
+
+
+/* Progress Bar code  */
+
+
+/* #c-rd{
+    width: 100px;
+} */
+
+#txtnav{
+    text-align: left;
+}
+
+#img-2{
+    width: 100%;
+    height: 300px;
+}
+
+#myform{
+  border: 2px solid whitesmoke; 
+  width: 350px;
+  border-radius: 25px;
+   /* margin-left: 100px;  */
+  background-color:rgba(0,0,0,0) !important;
+  border:none !important;
+  
+  
+
+}
+
+#txt-h{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#txt-p{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#btn-form{
+    border:1px solid black;
+   border-radius: 30px;
+   background-color: aqua;
+    padding: 6px;
+    /* margin-left:755px; */
+    border-top-left-radius:0px;
+   
+
+}
+
+ #dp{
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+   }
+
+ 
+
+#form-change{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+ #txt-h3{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+    font-style: italic;
+    text-align: center;
+
+ }
+
+ #txt-p{
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:17px;
+    font-style: italic;
+    text-align: center;
+    
+ }
+
+ #btn-bgimg{
+   
+    border:1px solid whitesmoke;
+    padding:4px;
+  
+    color: whitesmoke;
+    background-color: rgb(49, 219, 219);
+    border-radius:30px;
+    font-size:12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+ }
+
+ .center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .btn-btn-group{
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+#btn-gr{
+
+border: 1px solid black;
+border-radius:30px;
+
+  }
+
+ #pot{
+ height:250px;
+ }
+
+ .price li {
+    border-bottom: 1px solid #524f4f;
+    padding:10px;
+    width:280px;
+    
+    
+    
+  }
+
+  .price {
+    list-style-type: none;
+    border: 1px solid #6d6666;
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    /* -webkit-transition: 0.3s; */
+    /* transition: 0.3s; */
+  }
+  
+  #btn-price{
+    border-radius:30px;
+    font-size:12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+    border-radius:30px;
+     background-color: #524f4f;
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left:50px;
+
+  }
+
+#my-tick{
+    
+    font-size:medium;
+    color: aqua;
+    text-align: end;
+   
+}
+
+#red-tick{
+  
+    
+    font-size:medium;
+    color: rgb(255, 0, 0);
+    text-align: end;
+   
+}
+
+
+#comm{
+   font-size:25px;
+   text-align: left;
+}
+
+#date{
+    font-size:22px;
+    margin-left:20px;
+     
+    
+
+}
+
+#btn-full{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    border: 1px solid black;
+    border-radius:30px;
+   
+
+}
+
+#con-i{
+    text-align: center;
+    font-size:30px;
+    
+}
+
+#f-img{
+
+    width: 100px;
+    height: 50px;
+    
+}
+
+#social-icon{
+    font-size:22px;
+    text-align: left;
+    display: inline;
+    margin-left: 20px;
+}
+
+
+#caro-cap{
+    position: absolute;
+   
+  
+    justify-content: center;
+    bottom: 35%;
+    left:20%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
